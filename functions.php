@@ -32,13 +32,13 @@ add_theme_support( 'automatic-feed-links' );
     		'before_title'  => '<h2>',
     		'after_title'   => '</h2>'
     	));
+
     }
 
 ################################################################################
 // Custom Menus
 ################################################################################
 
-// Registering Top Navigation Bar
 if ( function_exists( 'register_nav_menu' ) ) {
 register_nav_menu( 'navigation', 'Main Navigation' );
 register_nav_menu( 'footer-navigation', 'Footer Navigation' );
@@ -62,7 +62,6 @@ if ( function_exists( 'add_image_size' ) ) {
 // Scripts & Styles
 ################################################################################
 
-
 function client_scripts()  {
 
    if ( !is_admin() ) {
@@ -81,15 +80,20 @@ function client_scripts()  {
 	wp_register_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans', '', null, 'all' );
 	wp_enqueue_style('google-fonts');
 
+	// WordPress Defaults
+	wp_register_style( 'wp-defaults', get_template_directory_uri() . '/assets/css/wp-defaults.css', '', null, 'all' );
+	wp_enqueue_style('wp-defaults');
+
 	// Main CSS
-	wp_enqueue_style( 'general', get_template_directory_uri() . '/assets/css/general.css', 'all' );
+	wp_register_style( 'general', get_template_directory_uri() . '/assets/css/general.css', '', null, 'all' );
+	wp_enqueue_style('general');
 
 	/* Javascript */
 
 	// jQuery
 	wp_enqueue_script('jquery');
 
-	// BootstrapCDN Javascript
+	// Bootstrap Javascript
 	wp_register_script( 'bootstrap-cdn', '//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js', 'jquery', '3.0.0', true  );
 	wp_enqueue_script('bootstrap-cdn');
 
@@ -97,11 +101,9 @@ function client_scripts()  {
 	wp_register_script( 'custom', get_template_directory_uri() . '/assets/js/custom.js', 'jquery', null, true  );
 	wp_enqueue_script('custom');
 
-}
-}
+	}}
+
 add_action( 'wp_enqueue_scripts', 'client_scripts' );
-
-
 
 ################################################################################
 // Custom CSS for Wordpress Editor
