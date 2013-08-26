@@ -1,28 +1,15 @@
-<?php
-	/*-----------------------------------------------------------------------------------*/
-	/* This template will be called by all other template files to finish 
-	/* rendering the page and display the footer area/content
-	/*-----------------------------------------------------------------------------------*/
-?>
+			<!-- footer -->
+			<footer class="footer" role="contentinfo">
 
-</div><!-- / end page container, begun in the header -->
+				<!-- copyright -->
+				<p class="copyright">
+					&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?>.
+				</p>
+				<!-- /copyright -->
 
-<footer class="site-footer" role="contentinfo">
-	<div class="site-info container">
-		
-		<p>Birthed <a href="http://bckmn.com/naked-wordpress" rel="theme">Naked</a> 
-			on <a href="http://wordpress.org" rel="generator">Wordpress</a> 
-			by <a href="http://bckmn.com" rel="designer">Joshua Beckman</a>
-		</p>
-		
-	</div><!-- .site-info -->
-</footer><!-- #colophon .site-footer -->
+			</footer>
+			<!-- /footer -->
 
-<?php wp_footer(); 
-// This fxn allows plugins to insert themselves/scripts/css/files (right here) into the footer of your website. 
-// Removing this fxn call will disable all kinds of plugins. 
-// Move it if you like, but keep it around.
-?>
-
+		<?php wp_footer(); ?>
 </body>
 </html>
