@@ -1,5 +1,5 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+<!-- footer -->
+<footer class="footer">
 
 				<!-- copyright -->
 				<p class="copyright">
@@ -7,9 +7,9 @@
 				</p>
 				<!-- /copyright -->
 
-			</footer>
-			<!-- /footer -->
+</footer>
+<!-- /footer -->
 
-		<?php wp_footer(); ?>
+<?php wp_footer(); ?>
 </body>
 </html>

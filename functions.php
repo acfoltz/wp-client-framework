@@ -80,10 +80,6 @@ function client_scripts()  {
 	wp_register_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans', '', null, 'all' );
 	wp_enqueue_style('google-fonts');
 
-	// WordPress Defaults
-	wp_register_style( 'wp-defaults', get_template_directory_uri() . '/assets/css/wp-defaults.css', '', null, 'all' );
-	wp_enqueue_style('wp-defaults');
-
 	// Main CSS
 	wp_register_style( 'general', get_template_directory_uri() . '/assets/css/general.css', '', null, 'all' );
 	wp_enqueue_style('general');
@@ -116,22 +112,22 @@ add_action( 'wp_enqueue_scripts', 'client_scripts' );
 ################################################################################
 
 	// Custom Login CSS
-	function imfza_custom_login() {
+	function client_custom_login() {
 		wp_register_style( 'custom-login', get_template_directory_uri() . '/assets/css/custom-login.css', true, 'all' );
 		wp_enqueue_style( 'custom-login' );
 		remove_filter( 'wp_admin_css','wp_admin_css' );
 	}
-	add_action('login_head', 'imfza_custom_login');
+	add_action('login_head', 'client_custom_login');
 
 	// changing the login page URL
-    function imfza_wp_login_url(){
+    function client_wp_login_url(){
     	return (home_url()); // Default Site URL
     }
-    add_filter('login_headerurl', 'imfza_wp_login_url');
+    add_filter('login_headerurl', 'client_wp_login_url');
 
     // changing the login page URL hover text
-    function imfza_wp_login_title(){
+    function client_wp_login_title(){
 	    return (get_option('blogname'));  // Hides "Powered by WordPress"
     }
-    add_filter('login_headertitle', 'imfza_wp_login_title');
+    add_filter('login_headertitle', 'client_wp_login_title');
 

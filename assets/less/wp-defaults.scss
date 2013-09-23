@@ -1,0 +1,117 @@
+/* WORDPRESS DEFAULT STYLES
+-------------------------------------------------------------------------------------------- */
+.entry-content img {
+	margin: 0 0 1.5em 0;
+}
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+  margin-right: 1.5em;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+  margin-left: 1.5em;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption {
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+.wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+.wp-caption p.wp-caption-text {
+	margin: 0;
+}
+.wp-smiley {
+	max-height: 1em;
+	margin:0 !important;
+}
+.gallery dl {
+	margin: 0;
+}
+.gallery-caption {
+	margin:-1.5em 0 0 0;
+}
+
+blockquote.left {
+	float: left;
+	margin-left: 0;
+	margin-right: 20px;
+	text-align: right;
+	width: 33%;
+}
+blockquote.right {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+	text-align: left;
+	width: 33%;
+}
+.form-allowed-tags{
+display:none;
+}
+ol.commentlist{
+	margin: 10px 5px;
+	padding: 10px;
+}
+.commentlist .comment-body{
+	padding: 10px;
+	background:  #EFEFEF ;
+	border: solid thin  #DEDEDE ;
+	margin: 10px 0;
+	position: relative;
+}
+.comment-body a.comment-reply-link{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color:  #AEAEAE ;
+}
+ol.commentlist li{
+	list-style: none;
+}
+ol.commentlist img.avatar{
+	padding: 5px;
+	background:  #DEDEDE ;
+	border: solid thin  #CECECE ;
+	float: left;
+	display: block;
+	margin: 15px;
+	width: 32px;
+	height: 32px;
+}
+ol.commentlist .comment-author{
+	line-height: 25px;
+}
+.comment-body cite.fn{
+	font-size: 14px;
+	font-style: normal;
+}
+.commentmetadata a{
+	margin: 0;
+	font-size: 11px;
+	color: #999;
+}
+.comment-body p{
+	margin: 5px;
+}
+
+.comment-body .comment-author.vcard{
+	margin: 0;
+}
+
+
+/* Extra WordPress Styles */
+.post img, .widget img {max-width: 100%;} /* Force images to stay within post and widget areas */

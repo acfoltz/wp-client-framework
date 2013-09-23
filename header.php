@@ -1,21 +1,19 @@
 <!DOCTYPE html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
 
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
 <title><?php wp_title(); ?></title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-
-<!-- Favicons -->
 <link rel="shortcut icon" href="<?php echo bloginfo( 'template_url' );?>/assets/ico/favicon.png">
 <link rel="apple-touch-icon" href="<?php bloginfo( 'template_url' );?>/assets/ico/apple-touch-icon.png">
 
 <!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/ico/metro-tile.png" />
 <meta name="msapplication-TileColor" content="#00000" //>
 <![endif]-->
@@ -34,7 +32,6 @@
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
 						</a>
 					</div>
