@@ -2,30 +2,30 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
-    "\/index.php" : {
+    "\/content.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
+      "inputAbbreviatedPath" : "\/content.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/style.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sidebar.php" : {
+    "\/functions.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sidebar.php",
+      "inputAbbreviatedPath" : "\/functions.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -40,6 +40,15 @@
       "initialSize" : 0,
       "fileType" : 8192
     },
+    "\/assets\/css\/custom-login.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/custom-login.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/sass\/editor-style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -52,23 +61,23 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/functions.php" : {
+    "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
+      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/css\/custom-login.css" : {
+    "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/custom-login.css",
+      "inputAbbreviatedPath" : "\/sidebar.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/page.php" : {
       "ignoreWasSetByUser" : 0,
@@ -120,6 +129,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/assets\/ico\/metro-tile.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
+      "initialSize" : 0,
+      "fileType" : 8192
+    },
     "\/assets\/sass\/custom-login.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -131,17 +151,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/custom-login.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/ico\/metro-tile.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
-      "initialSize" : 0,
-      "fileType" : 8192
     },
     "\/footer.php" : {
       "ignoreWasSetByUser" : 0,
@@ -216,18 +225,6 @@
       "initialSize" : 17713,
       "fileType" : 8192
     },
-    "\/assets\/sass\/general.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/general.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/sass\/idx-widgets.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -237,6 +234,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/assets\/css\/idx-widgets.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/sass\/general.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/general.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
