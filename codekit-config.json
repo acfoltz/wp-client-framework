@@ -11,23 +11,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/style.css" : {
+    "\/functions.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style.css",
+      "inputAbbreviatedPath" : "\/functions.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/assets\/css\/custom-login.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/custom-login.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
@@ -37,6 +28,15 @@
       "inputAbbreviatedPath" : "\/sidebar.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/assets\/less\/wp-defaults.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -50,23 +50,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/functions.php" : {
+    "\/assets\/css\/custom-login.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
+      "inputAbbreviatedPath" : "\/assets\/css\/custom-login.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/assets\/less\/custom-bootstrap.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -79,6 +70,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/custom-bootstrap.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/less\/editor-style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -156,15 +156,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/footer.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/less\/general.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -176,6 +167,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/general.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/ico\/favicion.png" : {
       "ignoreWasSetByUser" : 0,
@@ -200,12 +200,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/header.php" : {
+    "\/footer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
+      "inputAbbreviatedPath" : "\/footer.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
