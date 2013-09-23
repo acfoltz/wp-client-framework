@@ -11,14 +11,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/functions.php" : {
+    "\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
+      "inputAbbreviatedPath" : "\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
@@ -29,26 +29,37 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/style.css" : {
+    "\/assets\/images\/starter-image.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/assets\/images\/starter-image.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/images\/starter-image.png",
+      "initialSize" : 0,
+      "fileType" : 8192
     },
-    "\/assets\/less\/wp-defaults.scss" : {
+    "\/assets\/sass\/editor-style.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/wp-defaults.scss",
-      "outputStyle" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/editor-style.scss",
+      "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/wp-defaults.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/editor-style.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/custom-login.css" : {
       "ignoreWasSetByUser" : 0,
@@ -59,18 +70,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/less\/custom-bootstrap.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/custom-bootstrap.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/custom-bootstrap.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/page.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -80,27 +79,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/less\/editor-style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/editor-style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/editor-style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/less\/navigation.scss" : {
+    "\/assets\/sass\/wp-defaults.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/navigation.scss",
+      "inputAbbreviatedPath" : "\/assets\/sass\/wp-defaults.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/navigation.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/wp-defaults.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -112,17 +99,6 @@
       "inputAbbreviatedPath" : "\/single.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/ico\/metro-tile.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
-      "initialSize" : 0,
-      "fileType" : 8192
     },
     "\/assets\/js\/custom.js" : {
       "ignoreWasSetByUser" : 0,
@@ -144,29 +120,37 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/less\/idx-widgets.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/idx-widgets.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/idx-widgets.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/less\/general.scss" : {
+    "\/assets\/sass\/custom-login.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/general.scss",
+      "inputAbbreviatedPath" : "\/assets\/sass\/custom-login.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/custom-login.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/ico\/metro-tile.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/ico\/metro-tile.png",
+      "initialSize" : 0,
+      "fileType" : 8192
+    },
+    "\/footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/footer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/header.php" : {
       "ignoreWasSetByUser" : 0,
@@ -188,26 +172,29 @@
       "initialSize" : 0,
       "fileType" : 8192
     },
-    "\/assets\/less\/custom-login.scss" : {
+    "\/assets\/sass\/typography.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/custom-login.scss",
+      "inputAbbreviatedPath" : "\/assets\/sass\/typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/custom-login.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/footer.php" : {
+    "\/assets\/sass\/navigation.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/sass\/navigation.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/assets\/css\/navigation.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/editor-style.css" : {
       "ignoreWasSetByUser" : 0,
@@ -229,15 +216,27 @@
       "initialSize" : 17713,
       "fileType" : 8192
     },
-    "\/assets\/less\/typography.scss" : {
+    "\/assets\/sass\/general.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/general.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/assets\/css\/general.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/sass\/idx-widgets.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/less\/typography.scss",
+      "inputAbbreviatedPath" : "\/assets\/sass\/idx-widgets.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/assets\/css\/typography.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/idx-widgets.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -249,6 +248,18 @@
       "inputAbbreviatedPath" : "\/breadcrumbs.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/assets\/sass\/custom-bootstrap.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/custom-bootstrap.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/assets\/css\/custom-bootstrap.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/ico\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,

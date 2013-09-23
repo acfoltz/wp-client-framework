@@ -1,3 +1,4 @@
+<div class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
 
 			<?php if ( ! dynamic_sidebar( 'sidebar' ) ) : ?>
 				<aside id="archives" class="widget">
@@ -6,3 +7,5 @@
 				</aside>
 
 			<?php endif; ?>
+
+</div>

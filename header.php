@@ -27,7 +27,7 @@
 		<div class="wrapper">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 
 					<!-- logo -->
 					<div class="logo">

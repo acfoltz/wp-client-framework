@@ -1,5 +1,5 @@
 <!-- footer -->
-<footer class="footer">
+<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 
 				<!-- copyright -->
 				<p class="copyright">
