@@ -1,0 +1,114 @@
+/* -------------------------------------------------------- */
+/* IDX BROKER WIDGET RESETS                                 */
+/* -------------------------------------------------------- */
+ 
+/* SHOWCASE WIDGET
+----------------------------------------------------------- */
+.IDX-showcaseTable {
+  max-width: 100% !important;
+}
+.IDX-showcaseCell {
+  border:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	max-width: 100% !important;
+	width: auto !important;
+	padding: 0px !important;
+}
+ 
+/* SLIDESHOW WIDGET
+----------------------------------------------------------- */
+.IDX-slideshowWrapper { 
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	border:none !important;
+}
+ 
+/* QUICK SEARCH WIDGET
+----------------------------------------------------------- */
+.IDX-quicksearchWrapper {
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	border:none !important;
+}
+.IDX-qsInput.IDX-qsTextInput {
+	width: 50% !important;
+}
+.IDX-qsLabel {
+	text-align: right;
+	width: 45% !important;
+}
+.IDX-qsSelectInput {
+	font-size: 20px !important;
+}
+.IDX-qsButtonInput {
+	width: 100% !important;
+	padding: 10px 0 !important;
+}
+ 
+/* MAP SEARCH WIDGET
+----------------------------------------------------------- */
+.IDX-map, .IDX-mapControlContainer, .IDX-mapWidgetWrap, .IDX-mapHeader {
+	width: 100% !important;
+	overflow: hidden !important;
+}
+ 
+/* LEAD SIGNUP WIDGET
+----------------------------------------------------------- */
+#LeadSignup {
+	border-radius: none !important;
+	-webkit-border-radius: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	width: 100% !important;
+}
+#IDX-widgetfirstName-label, #IDX-widgetlastName-label, #IDX-widgetemail-label  {
+	width: 45% !important;
+	text-align: right !important;
+	float: left !important;
+}
+#IDX-widgetfirstName, #IDX-widgetlastName, #IDX-widgetemail {
+	width: 50% !important;
+	text-align: right !important;
+	float:right !important;
+}
+input#IDX-widgetsubmit.IDX-LeadSignupInput.IDX-leadLoginTextInput {
+	width: 100% !important;
+	padding: 10px 0 !important;
+}
+ 
+/* LEAD LOGIN WIDGET
+----------------------------------------------------------- */
+#IDX-widgetLeadLoginWrapper {
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	border:none !important;
+	width: 100% !important;
+}
+.IDX-leadLoginButtonInput {
+	width: 100% !important;
+	padding: 10px 0 !important;
+}
+.IDX-widgetLabel {
+	width: 100% !important;
+	text-align: left !important;
+}
+.IDX-leadLoginTextInput {
+	width: 100% !important;
+}
+ 
+/* FEATURED AGENT WIDGET
+----------------------------------------------------------- */
+#IDX-featuredAgentWrap {
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	border:none !important;
+}
+#IDX-featAgentImg {
+	width: 100% !important;
+}
