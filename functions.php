@@ -1,5 +1,9 @@
 <?php
 
+
+// Register Custom Navigation Walker
+require_once('lib/wp_bootstrap_navwalker.php');
+
 ################################################################################
 // Maximum allowed width of content
 ################################################################################
