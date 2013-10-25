@@ -1,15 +1,4 @@
 <?php
-/**
- * Jetpack Compatibility File
- * See: http://jetpack.me/
- *
- * @package _s
- */
-
-/**
- * Add theme support for Infinite Scroll.
- * See: http://jetpack.me/support/infinite-scroll/
- */
  
 // Force disable all modules by default
 add_filter( 'jetpack_get_default_modules', '__return_empty_array' );
@@ -17,7 +6,11 @@ add_filter( 'jetpack_get_default_modules', '__return_empty_array' );
 // Force Selecting Publicise
 // add_filter( 'publicize_checkbox_default', '__return_false' );
  
-// Infinite Scroll Support
+
+/**
+ * Add theme support for Infinite Scroll.
+ * See: http://jetpack.me/support/infinite-scroll/
+ */
 function client_jetpack_setup() {
         add_theme_support( 'infinite-scroll', array(
                 'container' => 'main',
