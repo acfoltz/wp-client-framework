@@ -1,0 +1,44 @@
+/* -------------------------------------------------------- */
+/* IDX BROKER CUSTOM CSS                                    */
+/* -------------------------------------------------------- */
+ 
+ 
+/* GLOBAL
+----------------------------------------------------------- */
+ 
+#IDX-main {width: 100% !important;}
+ 
+ 
+/* CONTACT FORM
+----------------------------------------------------------- */
+ 
+#IDX-contactContactForm { }
+.IDX-contactForm label.IDX-control-label { }
+#IDX-contactFormWrap { }
+textarea#IDX-message, input#IDX-email, input#IDX-lastName, input#IDX-firstName { }
+#IDX-contactInformation { }
+#IDX-contactFormWrap { }
+.IDX-control-group { }
+textarea#IDX-message { }
+ 
+ 
+/* PAGINATION
+----------------------------------------------------------- */
+span.IDX-pagerDots { }
+span.IDX-pagerSeparator { }
+#IDX-resultsPagerTop a, #IDX-resultsPagerBottom a { }
+span.IDX-pagerCurrent, span.IDX-pagerDots { }
+#IDX-resultsPagerTop a:hover, #IDX-resultsPagerBottom a:hover { }
+select.IDX-resultsPerPageSelector { }
+#IDX-resultsPagerTop, #IDX-resultsPagerBottom { }
+#IDX-resultsPagerTop span { } /* Pagination Text */
+ 
+ 
+/* NEXT PREVIOUS LINKS - DETAILS PAGES
+----------------------------------------------------------- */
+#IDX-prevProp a { }
+#IDX-prevProp a:hover { }
+#IDX-nextLastButtons { }
+#IDX-nextProp { }
+#IDX-nextProp a { }
+#IDX-nextProp a:hover { }
