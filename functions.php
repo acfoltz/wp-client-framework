@@ -77,7 +77,7 @@ function client_scripts()  {
 	wp_enqueue_style('bootstrap-cdn');
 
 	// Font Awesome
-	wp_register_style( 'fontawesome-cdn', '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css', '', '3.2.1', 'all' );
+	wp_register_style( 'fontawesome-cdn', '//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css', '', '3.2.1', 'all' );
 	wp_enqueue_style('fontawesome-cdn');
 
 	// Google Fonts
