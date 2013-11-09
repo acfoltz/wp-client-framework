@@ -1,8 +1,6 @@
 <?php get_header();  ?>
 
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 single">
+
 
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -18,9 +16,5 @@
 
 			<?php endwhile; endif; ?>
 
-
-		</div><!-- END COL12 -->
-	</div><!-- END ROW -->
-</div><!-- END CONTAINER -->
 
 <?php get_footer(); ?>
