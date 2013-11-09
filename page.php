@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-	<div id="primary" class="row-fluid">
-		<div id="content" role="main" class="span8 offset2">
+
 
 			<?php if ( have_posts() ) : ?>
 
@@ -28,6 +27,5 @@
 
 			<?php endif; ?>
 
-		</div><!-- #content .site-content -->
-	</div><!-- #primary .content-area -->
+
 <?php get_footer(); ?>
