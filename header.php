@@ -23,8 +23,6 @@
 
 <body <?php body_class(); ?>>
 
-	<!-- wrapper -->
-		<div class="wrapper">
 
 			<!-- header -->
 			<header class="header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
@@ -45,8 +43,6 @@
 
 			</header>
 			<!-- /header -->
-
-<div class="main-fluid"><!-- start the page containter -->
 
 
 <?php if ( !is_front_page() ) { get_template_part( 'breadcrumbs'); } ?>
