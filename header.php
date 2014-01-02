@@ -2,6 +2,10 @@
 <head>
 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+
+<link rel="dns-prefetch" href="http://netdna.bootstrapcdn.com" />
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title><?php wp_title(); ?></title>
