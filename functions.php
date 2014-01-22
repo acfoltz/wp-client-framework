@@ -58,6 +58,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 
 if ( function_exists( 'add_image_size' ) ) {
+  add_image_size( 'publicize', 200, 200, true ); // 200 x 200, minimum required for Jetpack Publicize
   add_image_size( 'bootstrap-small', 260, 180 ); // 260 pixels wide by 180 pixels high
   add_image_size( 'bootstrap-medium', 360, 268 ); // 360 pixels wide by 268 pixels high
 }
